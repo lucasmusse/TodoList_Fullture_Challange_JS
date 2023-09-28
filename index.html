@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/e7ebc2fc39.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="./js/script.js" defer></script>
+        
+        
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/todoList.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/select.css">
+        
+        <title>Todo List - Fullture</title>
+    </head>
+    <body>
+
+        
+        
+        <header>
+            <h1>FULLTURE ToDo List</h1>
+        </header>
+        <p id="BemVido"></p>
+
+        <button id="btnLogout">Logout</button>
+        <p id="bemVindo"></p>
+        <form id="form">
+            <input id='atividade' type="text" class="todo-input" maxlength="40" />
+            <button id="btnEnviar" class="todo-button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+
+
+            <div id="filtro" class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">Todas</option>
+                    <option value="completed">Finalizadas</option>
+                    <option value="uncompleted">Não Finalizadas</option>
+                </select>
+            </div>
+            
+        </form>
+        <div>
+            <button class="btn-apagar-todos" id="deleteAll">Apagar todas</button>
+            
+
+        </div>
+        
+
+        <div class="todo-container">
+            <ul id="ul" class="todo-list"></ul>
+        </div>
+    </body>
+</html>

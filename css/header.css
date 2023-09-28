@@ -1,0 +1,42 @@
+header {
+    text-shadow: 2px 2px 15px rgb(176, 230, 255);
+    font-size: 1.2rem;
+    
+}
+
+
+header,
+form {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+form input,
+form button {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    font-size: 1.8rem;
+    border: none;
+
+    background: #f4f4f4;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    color: #1A1A1A;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #1A1A1A;
+    color: white;
+}
+
+.inputErro{
+    border: 2px solid red;
+}

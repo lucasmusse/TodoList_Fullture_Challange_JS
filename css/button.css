@@ -1,0 +1,30 @@
+.trash-btn,
+.check-btn {
+    background-color: #1A1A1A;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.2s all ease;
+}
+
+.check-btn {
+    background-color: #FF5100;
+}
+
+.check-btn:hover {
+    background-color: #FF5100;
+    color: white;
+}
+
+.trash-btn:hover {
+    color: white;
+    background-color: #1A1A1A;
+}
+
+.btn-apagar-todos{
+    align-self: center;
+    padding: 5px 12px;
+    
+}

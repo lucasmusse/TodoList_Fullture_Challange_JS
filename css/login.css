@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    text-shadow: 2px 2px 15px rgb(176, 230, 255);
+    font-size: 1.2rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(
+        100deg,
+        #ccc,
+        #1A1A1A
+    );
+    
+}
+
+.div-login{
+    display: flex;
+    
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 8px;
+    max-width: 200px;    
+}
+
+.login-input{
+    padding: 5px 10px;
+}
+
+.input-submit{
+    padding: 8px;
+    background-color: azure;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.input-submit:hover{
+    background-color: rgb(187, 201, 201);
+    color: #fff;
+}
+

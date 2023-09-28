@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1A1A1A;
+    background: linear-gradient(
+        100deg,
+        #ccc,
+        #1A1A1A
+    );
+    color: white;
+    min-height: 100vh;
+    margin-bottom: 2rem;
+}
