@@ -1,36 +1,25 @@
 
 
-Retornar os itens concluídos para o dom a partir do localStorage 
+Desafio final da trilha de JavaScript do curso de desenvolver fullstack Fullture entregue em 11/2022
+
+Linguagem utilizada:
+
+HTML
+CSS
+JAVASCRIPT
+
+- Armazenamento de informações no local storage
+- Login utilizando session storage
+
+Você pode fazer o cadastro para acessar a aplicação!
 
 
 
-Função para editar os itens quando necessário
 
 
 
 
 
-
-
-
-
-A mais:
-
-Refatorar CSS
-    - Separ as folhas de estilo
-    - Colocar as cores em variaveis
-    - Melhorar estilo
-
-Melhorar segurança no Login
-
-CADASTRO DE USUÁRIOS:
-    - Tela de cadastro criada ok
-    - Permitir cadastrar usuários e armazenar no localStorage ok
-    - Validação de campos não preenchidos ok
-    
-    O que falta:
-        - senha criptografada
-        - validação para usuários que já estão cadastrados
 
 
 
